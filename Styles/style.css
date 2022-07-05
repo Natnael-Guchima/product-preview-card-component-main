@@ -11,3 +11,21 @@ html {
 body {
   font-family: Inter, Arial, Helvetica, sans-serif;
 }
+
+/* Add to Cart Button  */
+.add-to-cart {
+  border-width: 0;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  background-color: var(--color-primary-dark-cyan);
+  padding: 2rem 4rem;
+  width: 100%;
+  border-radius: 1rem;
+  opacity: 0.8;
+}
+
+.cart-icon {
+  margin-right: 1rem;
+}
