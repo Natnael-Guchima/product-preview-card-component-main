@@ -20,10 +20,9 @@ body {
   font-weight: 500;
   color: white;
   background-color: var(--color-primary-dark-cyan);
-  padding: 2rem 4rem;
+  padding: 1.5rem 0 1.5rem 0;
   width: 100%;
   border-radius: 1rem;
-  opacity: 0.8;
 }
 
 .cart-icon {
@@ -37,6 +36,7 @@ body {
   align-items: center;
   column-gap: 2rem;
   width: 100%;
+  margin: 2.5rem 0 1rem 0;
 }
 
 .new-price {
@@ -44,6 +44,7 @@ body {
   font-size: 3rem;
   font-weight: 700;
   color: var(--color-primary-dark-cyan);
+  margin: 0;
 }
 
 .old-price {
@@ -51,6 +52,7 @@ body {
   font-size: 1.5rem;
   opacity: 0.7;
   text-decoration: line-through;
+  margin: 0rem;
 }
 /* //////////////////////////// */
 
@@ -59,7 +61,12 @@ body {
   color: var(--color-neutral-dak-blue);
   font-size: 1.5rem;
   opacity: 0.8;
-  max-width: 40ch;
+  /* max-width: 40ch; */
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  line-height: 1.5;
 }
 /* ////////////////////////////////// */
 
@@ -67,8 +74,13 @@ body {
 .header {
   font-family: Fraunces, Arial, Helvetica, sans-serif;
   color: var(--color-neutral-dak-blue);
-  font-size: 4rem;
-  max-width: 14ch;
+  font-size: 3rem;
+  /* max-width: 14ch; */
+  text-align: left;
+  display: inline-block;
+  line-height: 100%;
+  width: 100%;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 @media screen and (min-width: 1440px) {
@@ -82,7 +94,29 @@ body {
 .perfume-lable {
   text-transform: uppercase;
   letter-spacing: 1ch;
-  font-size: 1.5rem;
+  font-size: 1rem;
   color: var(--color-neutral-dak-blue);
   opacity: 0.8;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
 }
+/* ///////////////////// */
+
+/* Hero Image */
+.hero-img {
+  border-radius: 2rem 2rem 0 0;
+  width: 100%;
+}
+/* ///////////////////////////// */
+
+/* Hero Content  */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+/* Product Preivew Card  */
