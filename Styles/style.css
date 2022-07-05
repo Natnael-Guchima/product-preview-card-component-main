@@ -29,3 +29,25 @@ body {
 .cart-icon {
   margin-right: 1rem;
 }
+
+/* Price Tag */
+.price-tag {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+  width: 100%;
+}
+
+.new-price {
+  font-family: Fraunces, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: var(--color-primary-dark-cyan);
+}
+
+.old-price {
+  color: var(--color-neutral-dak-blue);
+  font-size: 1.5rem;
+  opacity: 0.7;
+  text-decoration: line-through;
+}
