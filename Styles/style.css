@@ -29,6 +29,7 @@ body {
 .cart-icon {
   margin-right: 1rem;
 }
+/* /////////////////// */
 
 /* Price Tag */
 .price-tag {
@@ -50,4 +51,28 @@ body {
   font-size: 1.5rem;
   opacity: 0.7;
   text-decoration: line-through;
+}
+/* //////////////////////////// */
+
+/* Supporting Copy */
+.supporting-copy {
+  color: var(--color-neutral-dak-blue);
+  font-size: 1.5rem;
+  opacity: 0.8;
+  max-width: 40ch;
+}
+/* ////////////////////////////////// */
+
+/* Header */
+.header {
+  font-family: Fraunces, Arial, Helvetica, sans-serif;
+  color: var(--color-neutral-dak-blue);
+  font-size: 4rem;
+  max-width: 14ch;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    max-width: 10ch;
+  }
 }
