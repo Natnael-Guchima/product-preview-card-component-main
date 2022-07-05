@@ -76,3 +76,13 @@ body {
     max-width: 10ch;
   }
 }
+/* ///////////////////////////////////// */
+
+/* Perfuem Label */
+.perfume-lable {
+  text-transform: uppercase;
+  letter-spacing: 1ch;
+  font-size: 1.5rem;
+  color: var(--color-neutral-dak-blue);
+  opacity: 0.8;
+}
