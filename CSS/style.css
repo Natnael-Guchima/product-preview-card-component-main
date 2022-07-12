@@ -14,16 +14,16 @@ body {
 
 /* Add to Cart Button  */
 .add-to-cart {
+  background-color: var(--color-primary-dark-cyan);
+  border-radius: 1rem;
   border-width: 0;
+  color: white;
   font-family: inherit;
   font-size: 2rem;
   font-weight: 500;
-  color: white;
-  background-color: var(--color-primary-dark-cyan);
   padding: 1.5rem 0 1.5rem 0;
-  width: 100%;
-  border-radius: 1rem;
   transition: background-color 0.2s;
+  width: 100%;
 }
 
 .add-to-cart:hover {
@@ -37,18 +37,18 @@ body {
 
 /* Price Tag */
 .price-tag {
-  display: flex;
   align-items: center;
   column-gap: 2rem;
-  width: 100%;
+  display: flex;
   margin: 2.5rem 0 1rem 0;
+  width: 100%;
 }
 
 .new-price {
+  color: var(--color-primary-dark-cyan);
   font-family: Fraunces, Arial, Helvetica, sans-serif;
   font-size: 3rem;
   font-weight: 700;
-  color: var(--color-primary-dark-cyan);
   margin: 0;
 }
 
@@ -72,15 +72,15 @@ body {
 
 /* Supporting Copy */
 .supporting-copy {
-  color: var(--color-neutral-dak-blue);
-  font-size: 1.5rem;
-  opacity: 0.8;
   /* max-width: 40ch; */
-  text-align: left;
+  color: var(--color-neutral-dak-blue);
   display: inline-block;
-  width: 100%;
-  margin: 0;
+  font-size: 1.5rem;
   line-height: 1.5;
+  margin: 0;
+  opacity: 0.8;
+  text-align: left;
+  width: 100%;
 }
 
 @media screen and (min-width: 1440px) {
