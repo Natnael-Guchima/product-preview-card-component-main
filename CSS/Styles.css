@@ -1,0 +1,181 @@
+:root {
+  --color-primary-dark-cyan: hsl(158, 36%, 37%);
+  --color-primary-cream: hsl(30, 38%, 92%);
+  --color-neutral-dak-blue: hsl(212, 21%, 14%);
+  --color-neutral-glyph-blue: hsl(228, 12%, 48%);
+}
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+/* Add to Cart Button  */
+.add-to-cart {
+  background-color: var(--color-primary-dark-cyan);
+  border-radius: 1rem;
+  border-width: 0;
+  color: white;
+  font-family: inherit;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 1.5rem 0 1.5rem 0;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.add-to-cart:hover {
+  background-color: var(--color-neutral-dak-blue);
+}
+
+.cart-icon {
+  margin-right: 1rem;
+}
+/* /////////////////// */
+
+/* Price Tag */
+.price-tag {
+  align-items: center;
+  column-gap: 2rem;
+  display: flex;
+  margin: 2.5rem 0 1rem 0;
+  width: 100%;
+}
+
+.new-price {
+  color: var(--color-primary-dark-cyan);
+  font-family: Fraunces, Arial, Helvetica, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.old-price {
+  color: var(--color-neutral-dak-blue);
+  font-size: 1.5rem;
+  opacity: 0.7;
+  text-decoration: line-through;
+  margin: 0rem;
+}
+
+@media screen and (min-width: 1440px) {
+  .old-price {
+    font-size: 2rem;
+  }
+  .new-price {
+    font-size: 5rem;
+  }
+}
+/* //////////////////////////// */
+
+/* Supporting Copy */
+.supporting-copy {
+  /* max-width: 40ch; */
+  color: var(--color-neutral-dak-blue);
+  display: inline-block;
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.8;
+  text-align: left;
+  width: 100%;
+}
+
+@media screen and (min-width: 1440px) {
+  .supporting-copy {
+    font-size: 2rem;
+    line-height: 1.7;
+  }
+}
+/* ////////////////////////////////// */
+
+/* Header */
+.header {
+  font-family: Fraunces, Arial, Helvetica, sans-serif;
+  color: var(--color-neutral-dak-blue);
+  font-size: 3rem;
+  text-align: left;
+  display: inline-block;
+  line-height: 100%;
+  width: 100%;
+  margin: 1.5rem 0 1.5rem 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .header {
+    font-size: 5rem;
+  }
+}
+
+/* ///////////////////////////////////// */
+
+/* Perfuem Label */
+.perfume-lable {
+  text-transform: uppercase;
+  letter-spacing: 1ch;
+  font-size: 1rem;
+  color: var(--color-neutral-dak-blue);
+  opacity: 0.8;
+  text-align: left;
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .perfume-lable {
+    font-size: 2rem;
+  }
+}
+/* ///////////////////// */
+
+/* Hero Image */
+.hero-img {
+  border-radius: 1rem 1rem 0 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Desktop */
+@media screen and (min-width: 1440px) {
+  .hero-img {
+    border-radius: 1rem 0 0 1rem;
+  }
+}
+/* ///////////////////////////// */
+
+/* Hero Content  */
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background-color: white;
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-content {
+    padding: 4rem 3rem;
+  }
+}
+/* ///////////////////////////////// */
+
+/* Product Preivew Card  */
+.preview-card {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-primary-cream);
+  padding: 2rem 1.5rem;
+}
+/* Desktop Product preview Card  */
+@media screen and (min-width: 1440px) {
+  .preview-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-direction: row; */
+    padding: 30rem;
+  }
+}
+/* /////////////////////////////////// */
